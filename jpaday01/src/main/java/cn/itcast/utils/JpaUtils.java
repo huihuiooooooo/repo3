@@ -21,6 +21,7 @@ public class JpaUtils {
      * 获取实体管理类对象
      */
     public static EntityManager getEntityManager() {
+        System.out.println();
         return factory.createEntityManager();
     }
 }
